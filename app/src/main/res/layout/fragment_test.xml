@@ -1,0 +1,42 @@
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhisheki.androidsession6_assignment1.TestFragment">
+
+
+    <Button
+        android:text="Layout 1"
+        android:layout_width="100dp"
+        android:layout_height ="50dp"
+        android:id="@+id/btnLayout1"
+        android:layout_marginTop="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Layout 2"
+        android:layout_width="100dp"
+        android:layout_height ="50dp"
+        android:id="@+id/btnLayout2"
+        android:layout_below="@+id/btnLayout1"
+        android:layout_alignStart="@+id/btnLayout1" />
+
+    <Button
+        android:text="Layout 3"
+        android:layout_width="100dp"
+        android:layout_height ="50dp"
+        android:id="@+id/btnLayout3"
+        android:layout_below="@+id/btnLayout2"
+        android:layout_alignStart="@+id/btnLayout2" />
+
+    <Button
+        android:text="Layout 4"
+        android:layout_width="100dp"
+        android:layout_height ="50dp"
+        android:id="@+id/btnLayout4"
+        android:layout_below="@+id/btnLayout3"
+        android:layout_alignStart="@+id/btnLayout3" />
+
+
+</RelativeLayout>
